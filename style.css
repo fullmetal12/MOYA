@@ -46,7 +46,7 @@ Main Content style
 	display: table;
 	padding: 2em 5%;
 	background-color: #241917;
-	background-image: url(../img/img-1.jpg);
+	background-image: url(https://68.media.tumblr.com/8d6f1ec45402b088b43e04907fe18340/tumblr_onyhg3TIeB1vv1g70o1_500.gif);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -59,17 +59,17 @@ Main Content style
 
 .animated-section:nth-of-type(2) .section-content {
 	background-color: #241917;
-	background-image: url(../img/img-2.jpg);
+	background-image: url(http://24.media.tumblr.com/5c07c3b51e995eb4d4701bf8017d1e83/tumblr_mkwod2Ax3H1qksaozo1_500.gif);
 }
 
 .animated-section:nth-of-type(3) .section-content  {
 	background-color: #382e42;
-	background-image: url(../img/img-3.jpg);
+	background-image: url(https://media.giphy.com/media/SUREsnI6v55CM/giphy.gif);
 }
 
 .animated-section:nth-of-type(4) .section-content  {
 	background-color: #002239;
-	background-image: url(../img/img-4.jpg);
+	background-image: url(https://68.media.tumblr.com/93f7287ca24a1ea9ad40f2be41009af0/tumblr_nx5wwi8KbV1sif74ko1_400.gif);
 }
 
 .section-content > div {
