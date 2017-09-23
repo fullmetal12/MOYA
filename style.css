@@ -1,0 +1,98 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  background-color: #241917;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+h1, h2 {
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
+}
+
+/* -------------------------------- 
+
+Main Content style
+
+-------------------------------- */
+.animated-section {
+	position: relative;
+	height: 100vh;
+	text-align: center;
+}
+
+.section-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	display: table;
+	padding: 2em 5%;
+	background-color: #241917;
+	background-image: url(../img/img-1.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+}
+.fixed .section-content {
+	position: fixed;
+}
+
+.animated-section:nth-of-type(2) .section-content {
+	background-color: #241917;
+	background-image: url(../img/img-2.jpg);
+}
+
+.animated-section:nth-of-type(3) .section-content  {
+	background-color: #382e42;
+	background-image: url(../img/img-3.jpg);
+}
+
+.animated-section:nth-of-type(4) .section-content  {
+	background-color: #002239;
+	background-image: url(../img/img-4.jpg);
+}
+
+.section-content > div {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 700px) {
+
+	h1 {
+		font-size: 5rem;
+	}
+
+	h2 {
+		font-size: 4rem;
+	}
+}
